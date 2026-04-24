@@ -1022,7 +1022,14 @@
       <div class="contact-links">
         <a href="https://linkedin.com/in/prateek-choudhary-375741241" class="contact-link cl-linkedin" target="_blank">in LinkedIn</a>
         <a href="https://github.com/Prateek13052003" class="contact-link cl-github" target="_blank">⌥ GitHub</a>
-        <a href="mailto:choudharyprateek072@gmail.com" class="contact-link cl-gmail" target="_blank">✉ Gmail</a>
+        <a href="mailto:choudharyprateek072@gmail.com" 
+   class="contact-link cl-gmail" 
+   onclick="navigator.clipboard.writeText('choudharyprateek072@gmail.com');
+            this.textContent='✅ Copied!';
+            setTimeout(()=>this.innerHTML='✉ Gmail',2000);
+            return false;">
+  ✉ Gmail
+</a>
         <a href="https://leetcode.com/u/Prateekc1305/" class="contact-link cl-leetcode" target="_blank">⚡ LeetCode</a>
       </div>
     </div>
