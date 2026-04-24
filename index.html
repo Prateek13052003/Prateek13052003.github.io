@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Prateek Choudhary — Agentic AI Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;700&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <style>
   :root {
@@ -25,7 +25,7 @@
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     overflow-x: hidden;
     cursor: none;
   }
@@ -82,14 +82,14 @@
     transition: all .3s;
   }
   .nav-logo {
-    font-family: 'Orbitron', sans-serif; font-size: 1.1rem; font-weight:700;
+    font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight:700;
     color: var(--cyan); letter-spacing:.15em;
     text-shadow: 0 0 20px rgba(0,245,255,.6);
   }
   .nav-links { display:flex; gap:2rem; list-style:none; }
   .nav-links a {
     color: var(--muted); text-decoration:none; font-size:.85rem;
-    font-family:'JetBrains Mono', monospace; font-weight:500;
+    font-family:'Fira Code', monospace; font-weight:500;
     letter-spacing:.1em; text-transform:uppercase;
     transition: color .2s, text-shadow .2s;
     position: relative;
@@ -113,7 +113,7 @@
     display:inline-flex; align-items:center; gap:.6rem;
     background: rgba(139,92,246,.12); border:1px solid rgba(139,92,246,.4);
     border-radius:100px; padding:.45rem 1.2rem; margin-bottom:2rem;
-    font-family:'JetBrains Mono', monospace; font-size:.78rem;
+    font-family:'Fira Code', monospace; font-size:.78rem;
     color: #c4b5fd; letter-spacing:.12em;
     animation: badge-pulse 3s ease-in-out infinite;
   }
@@ -128,7 +128,7 @@
   @keyframes dot-blink { 0%,100%{opacity:1;} 50%{opacity:.3;} }
 
   .hero-name {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Syne', sans-serif;
     font-size: clamp(3rem, 8vw, 6.5rem);
     font-weight: 900; line-height: 1;
     letter-spacing: -.02em;
@@ -148,14 +148,14 @@
   .hero-title {
     font-size: clamp(1rem, 3vw, 1.5rem); color: var(--muted);
     font-weight:500; letter-spacing:.25em; text-transform:uppercase;
-    margin-bottom: 1.5rem; font-family:'Rajdhani';
+    margin-bottom: 1.5rem; font-family:'DM Sans';
   }
 
   .typing-container {
     height: 2.5rem; margin-bottom:2.5rem; overflow:hidden;
   }
   .typing-text {
-    font-family: 'JetBrains Mono', monospace; font-size:1.1rem;
+    font-family: 'Fira Code', monospace; font-size:1.1rem;
     color: var(--cyan); opacity:0;
     animation: type-cycle 14s ease-in-out infinite;
   }
@@ -174,7 +174,7 @@
     margin-bottom:3rem;
   }
   .btn {
-    padding:.8rem 2rem; border-radius:6px; font-family:'JetBrains Mono';
+    padding:.8rem 2rem; border-radius:6px; font-family:'Fira Code';
     font-size:.82rem; font-weight:500; letter-spacing:.1em;
     cursor:pointer; text-decoration:none; transition: all .3s;
     position:relative; overflow:hidden; display:inline-flex; align-items:center; gap:.5rem;
@@ -203,7 +203,7 @@
   }
   .stat-item { text-align:center; }
   .stat-num {
-    font-family:'Orbitron', sans-serif; font-size:1.8rem; font-weight:700;
+    font-family:'Syne', sans-serif; font-size:1.8rem; font-weight:700;
     color:var(--cyan); display:block;
     text-shadow:0 0 20px rgba(0,245,255,.6);
   }
@@ -214,11 +214,11 @@
     text-align:center; margin-bottom:4rem;
   }
   .section-tag {
-    font-family:'JetBrains Mono'; font-size:.72rem; color:var(--cyan);
+    font-family:'Fira Code'; font-size:.72rem; color:var(--cyan);
     letter-spacing:.3em; text-transform:uppercase; opacity:.7; display:block; margin-bottom:.8rem;
   }
   .section-title {
-    font-family:'Orbitron', sans-serif; font-size:clamp(1.8rem,4vw,2.8rem);
+    font-family:'Syne', sans-serif; font-size:clamp(1.8rem,4vw,2.8rem);
     font-weight:700; letter-spacing:-.01em;
     background:linear-gradient(135deg,#fff 30%,var(--cyan));
     -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
@@ -264,7 +264,7 @@
   @keyframes ring-pulse { 0%,100%{transform:translate(-50%,-50%) scale(1);opacity:1;} 50%{transform:translate(-50%,-50%) scale(1.04);opacity:.6;} }
 
   .exp-headline {
-    font-family:'Orbitron'; font-size:clamp(2.5rem,5vw,4rem); font-weight:900;
+    font-family:'Syne'; font-size:clamp(2.5rem,5vw,4rem); font-weight:900;
     text-align:center; margin-bottom:.5rem;
     background:linear-gradient(135deg,var(--gold) 0%,var(--pink) 40%,var(--purple) 70%,var(--cyan) 100%);
     -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
@@ -359,7 +359,7 @@
   .exp-card:nth-child(3) .exp-icon { background:rgba(255,165,0,.12); border:1px solid rgba(255,165,0,.3); }
   .exp-card:nth-child(4) .exp-icon { background:rgba(255,0,110,.12); border:1px solid rgba(255,0,110,.3); }
 
-  .exp-company { font-family:'Orbitron'; font-size:1rem; font-weight:700; letter-spacing:.05em; }
+  .exp-company { font-family:'Syne'; font-size:1rem; font-weight:700; letter-spacing:.05em; }
   .exp-card:nth-child(1) .exp-company { color:var(--green); }
   .exp-card:nth-child(2) .exp-company { color:var(--cyan); }
   .exp-card:nth-child(3) .exp-company { color:#FFA500; }
@@ -369,7 +369,7 @@
   .exp-role { font-size:1.2rem; font-weight:700; color:#fff; margin-bottom:.25rem; letter-spacing:.03em; }
   .exp-period {
     display:inline-flex; align-items:center; gap:.4rem;
-    font-family:'JetBrains Mono'; font-size:.7rem; color:var(--muted);
+    font-family:'Fira Code'; font-size:.7rem; color:var(--muted);
     background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08);
     border-radius:100px; padding:.2rem .8rem; margin-bottom:1rem;
   }
@@ -394,7 +394,7 @@
     display:flex; align-items:center; gap:.8rem;
   }
   .exp-impact-num {
-    font-family:'Orbitron'; font-size:1.4rem; font-weight:700;
+    font-family:'Syne'; font-size:1.4rem; font-weight:700;
     color:var(--cyan); white-space:nowrap;
     text-shadow:0 0 15px rgba(0,245,255,.5);
   }
@@ -415,11 +415,11 @@
   }
   .skill-group:hover { transform:translateY(-4px); border-color:rgba(0,245,255,.3); box-shadow:0 10px 40px rgba(0,0,0,.5), 0 0 30px rgba(0,245,255,.08); }
   .skill-group:hover::before { opacity:1; }
-  .skill-group-title { font-family:'Orbitron'; font-size:.75rem; font-weight:600; color:var(--cyan); letter-spacing:.15em; text-transform:uppercase; margin-bottom:1rem; }
+  .skill-group-title { font-family:'Syne'; font-size:.75rem; font-weight:600; color:var(--cyan); letter-spacing:.15em; text-transform:uppercase; margin-bottom:1rem; }
   .skill-tags { display:flex; flex-wrap:wrap; gap:.5rem; }
   .tag {
     padding:.3rem .8rem; border-radius:6px; font-size:.78rem;
-    font-family:'JetBrains Mono'; transition:all .2s;
+    font-family:'Fira Code'; transition:all .2s;
     border:1px solid;
   }
   .tag-cyan { background:rgba(0,245,255,.07); border-color:rgba(0,245,255,.2); color:rgba(0,245,255,.9); }
@@ -454,21 +454,21 @@
   .project-top { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem; }
   .project-emoji { font-size:1.8rem; }
   .project-featured {
-    font-family:'JetBrains Mono'; font-size:.62rem; font-weight:700;
+    font-family:'Fira Code'; font-size:.62rem; font-weight:700;
     color:#000; background:linear-gradient(135deg,var(--gold),#ff8c00);
     padding:.2rem .6rem; border-radius:4px; letter-spacing:.1em;
   }
-  .project-title { font-family:'Orbitron'; font-size:.95rem; font-weight:700; color:#fff; margin-bottom:.6rem; line-height:1.3; }
+  .project-title { font-family:'Syne'; font-size:.95rem; font-weight:700; color:#fff; margin-bottom:.6rem; line-height:1.3; }
   .project-desc { font-size:.88rem; color:var(--muted); line-height:1.6; margin-bottom:1.2rem; flex:1; }
   .project-tech { display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:1.2rem; }
   .project-tech span {
-    font-family:'JetBrains Mono'; font-size:.68rem; padding:.2rem .6rem;
+    font-family:'Fira Code'; font-size:.68rem; padding:.2rem .6rem;
     border-radius:4px; background:rgba(0,245,255,.06); border:1px solid rgba(0,245,255,.15);
     color:rgba(0,245,255,.8);
   }
   .project-links { display:flex; gap:.8rem; }
   .project-link {
-    font-family:'JetBrains Mono'; font-size:.72rem; color:var(--cyan);
+    font-family:'Fira Code'; font-size:.72rem; color:var(--cyan);
     text-decoration:none; display:flex; align-items:center; gap:.3rem;
     padding:.3rem .8rem; border-radius:6px; border:1px solid rgba(0,245,255,.2);
     transition:all .2s;
@@ -504,9 +504,9 @@
   .achieve-card:nth-child(3)::before{ background:radial-gradient(circle at 0% 0%, rgba(0,245,255,.07),transparent 60%); }
 
   .achieve-icon { font-size:2.2rem; flex-shrink:0; }
-  .achieve-title { font-family:'Orbitron'; font-size:.95rem; font-weight:700; color:#fff; margin-bottom:.4rem; }
+  .achieve-title { font-family:'Syne'; font-size:.95rem; font-weight:700; color:#fff; margin-bottom:.4rem; }
   .achieve-desc { font-size:.88rem; color:var(--muted); line-height:1.5; }
-  .achieve-num { font-family:'Orbitron'; font-size:2rem; font-weight:900; display:block; margin-bottom:.2rem; }
+  .achieve-num { font-family:'Syne'; font-size:2rem; font-weight:900; display:block; margin-bottom:.2rem; }
   .achieve-card:nth-child(1) .achieve-num { color:var(--gold); text-shadow:0 0 20px rgba(255,215,0,.5); }
   .achieve-card:nth-child(2) .achieve-num { color:#FF6400; text-shadow:0 0 20px rgba(255,100,0,.5); }
   .achieve-card:nth-child(3) .achieve-num { color:var(--cyan); text-shadow:0 0 20px rgba(0,245,255,.5); }
@@ -521,10 +521,10 @@
   }
   .edu-card:hover { transform:translateY(-5px); border-color:rgba(139,92,246,.4); box-shadow:0 15px 50px rgba(139,92,246,.15); }
   .edu-icon { font-size:2.5rem; margin-bottom:1rem; }
-  .edu-school { font-family:'Orbitron'; font-size:1rem; font-weight:700; color:var(--cyan); margin-bottom:.3rem; }
+  .edu-school { font-family:'Syne'; font-size:1rem; font-weight:700; color:var(--cyan); margin-bottom:.3rem; }
   .edu-degree { font-size:1rem; font-weight:600; color:#fff; margin-bottom:.4rem; }
-  .edu-period { font-family:'JetBrains Mono'; font-size:.75rem; color:var(--muted); }
-  .edu-cgpa { font-family:'Orbitron'; font-size:1.2rem; font-weight:700; color:var(--gold); margin-top:.5rem; }
+  .edu-period { font-family:'Fira Code'; font-size:.75rem; color:var(--muted); }
+  .edu-cgpa { font-family:'Syne'; font-size:1.2rem; font-weight:700; color:var(--gold); margin-top:.5rem; }
 
   /* ── CONTACT ── */
   #contact { padding:7rem 0 10rem; text-align:center; }
@@ -537,13 +537,13 @@
     content:''; position:absolute; inset:0;
     background: radial-gradient(ellipse at 50% 0%, rgba(0,245,255,.06), transparent 60%);
   }
-  .contact-title { font-family:'Orbitron'; font-size:1.6rem; font-weight:700; color:#fff; margin-bottom:.6rem; position:relative; }
+  .contact-title { font-family:'Syne'; font-size:1.6rem; font-weight:700; color:#fff; margin-bottom:.6rem; position:relative; }
   .contact-sub { color:var(--muted); margin-bottom:2.5rem; position:relative; }
   .contact-links { display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; position:relative; }
   .contact-link {
     display:inline-flex; align-items:center; gap:.6rem;
     padding:.8rem 1.6rem; border-radius:10px;
-    font-family:'JetBrains Mono'; font-size:.8rem; font-weight:500;
+    font-family:'Fira Code'; font-size:.8rem; font-weight:500;
     text-decoration:none; transition:all .3s; letter-spacing:.05em; border:1px solid;
   }
   .cl-linkedin { color:#0ea5e9; border-color:rgba(14,165,233,.3); background:rgba(14,165,233,.06); }
@@ -559,7 +559,7 @@
   footer {
     border-top:1px solid rgba(0,245,255,.06);
     padding:2rem; text-align:center;
-    font-family:'JetBrains Mono'; font-size:.75rem; color:var(--muted);
+    font-family:'Fira Code'; font-size:.75rem; color:var(--muted);
     position:relative; z-index:10;
   }
 
@@ -617,13 +617,16 @@
       <a href="#projects" class="btn btn-outline">🛠 Projects</a>
       <a href="mailto:choudharyprateek072@gmail.com" class="btn btn-outline">📬 Contact</a>
     </div>
+    <div class="reveal" style="margin-bottom:2rem;">
+      <img src="https://komarev.com/ghpvc/?username=Prateek13052003&label=Profile+Views&color=00F5FF&style=for-the-badge" alt="Profile Views"/>
+    </div>
     <div class="hero-stats reveal">
       <div class="stat-item">
         <span class="stat-num" data-count="97.90">0</span>
         <span class="stat-label">GATE Percentile</span>
       </div>
       <div class="stat-item">
-        <span class="stat-num" data-count="40">0</span>
+        <span class="stat-num" data-count="78">0</span>
         <span class="stat-label">GitHub Repos</span>
       </div>
       <div class="stat-item">
