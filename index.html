@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Prateek Choudhary —Software Developer</title>
+<title>Prateek Choudhary — Agentic AI Developer</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;700&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <style>
@@ -152,7 +152,7 @@
   }
 
   .typing-container {
-    height: 2.5rem; margin-bottom:2.5rem; overflow:hidden;
+    height: 3rem; margin-bottom:2.5rem; overflow:visible;
   }
   .typing-text {
     font-family: 'Fira Code', monospace; font-size:1.1rem;
@@ -379,12 +379,12 @@
 
   .exp-bullets { list-style:none; display:flex; flex-direction:column; gap:.6rem; }
   .exp-bullets li {
-    display:flex; gap:.8rem; align-items:flex-start;
-    font-size:.9rem; color:rgba(200,220,255,.8); line-height:1.5;
+    display:block;
+    font-size:.9rem; color:rgba(200,220,255,.8); line-height:1.6; padding-left:1.4rem; position:relative;
   }
   .exp-bullets li::before {
-    content:'▹'; color:var(--cyan); flex-shrink:0;
-    font-size:.85rem; margin-top:.05rem;
+    content:'▹'; color:var(--cyan); position:absolute; left:0; top:.05rem;
+    font-size:.85rem;
   }
   .exp-bullets strong { color:#fff; }
 
@@ -589,7 +589,7 @@
 <nav>
   <div class="nav-logo">PC_DEV</div>
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
+    <li><a href="#hero">About</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
@@ -599,14 +599,14 @@
 </nav>
 
 <!-- HERO -->
-<section id="hero">
+<section id="hero" style="scroll-margin-top:80px;">
   <div class="hero-inner container">
     <div class="hero-badge reveal">
       <span class="badge-dot"></span>
       IIIT Allahabad · M.Tech Network &amp; Security
     </div>
     <h1 class="hero-name reveal">Prateek<br/>Choudhary</h1>
-    <p class="hero-title reveal">Software Developer</p>
+    <p class="hero-title reveal">Agentic AI Developer</p>
     <div class="typing-container reveal">
       <div class="typing-text">🤖 Building Multi-Agent AI Systems</div>
       <div class="typing-text">🔐 Post-Quantum Cryptography | Kyber-768</div>
@@ -615,7 +615,7 @@
     <div class="hero-buttons reveal">
       <a href="#experience" class="btn btn-primary">⚡ View Experience</a>
       <a href="#projects" class="btn btn-outline">🛠 Projects</a>
-      <a href="mailto:choudharyprateek072@gmail.com" class="btn btn-outline">📬 Contact</a>
+      <a href="#contact" class="btn btn-outline">📬 Contact</a>
     </div>
     <div class="reveal" style="margin-bottom:2rem;">
       <img src="https://komarev.com/ghpvc/?username=Prateek13052003&label=Profile+Views&color=00F5FF&style=for-the-badge" alt="Profile Views"/>
