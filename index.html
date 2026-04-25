@@ -587,7 +587,7 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">PC_DEV</div>
+  
   <ul class="nav-links">
     <li><a href="#hero">About</a></li>
     <li><a href="#experience">Experience</a></li>
@@ -1048,6 +1048,7 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHei
 const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('bg-canvas'), antialias:true, alpha:true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
+  
 camera.position.z = 30;
 
 const N = 180;
